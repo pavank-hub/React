@@ -1,4 +1,5 @@
 statelifting , most common ancestor m hum state create krte hai.
+
 redux makes easier to handle statelifting
 what happens in redux?
 we make store (a global file that can be accessed by everyone)
