@@ -10,6 +10,7 @@ export default function Github(){
     // console.log(name);
 
     const {name} = useParams();
+    // URL ke dynamic parameters nikalne ke liye.
     // console.log(name); 
     const [Profile,setProfile] = useState(null);
 
@@ -22,13 +23,6 @@ export default function Github(){
     useEffect(()=>{
         fetchuser();
     },[]);
-
-    // if(!Profile){
-    //     return (<h2>Loading...</h2>)
-    // }
-    //Step 1
-    // Above step is neccessary becoz if Profile is null ,
-    // the  Profile.avata_url doesnt make any sense
 
 
     return(
@@ -44,3 +38,13 @@ export default function Github(){
         </>
     )
 } 
+
+    // if(!Profile){
+    //     return (<h2>Loading...</h2>)
+    // }
+    //Step 1
+    // Above step is neccessary becoz if Profile is null ,
+    // the  Profile.avata_url doesnt make any sense
+    // ?. ka meaning:
+    // Agar Profile null nahi hai → property access karo.
+    // Agar null hai → undefined return karo, error nahi.

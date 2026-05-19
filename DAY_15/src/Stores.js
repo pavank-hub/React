@@ -1,5 +1,5 @@
 import { configureStore } from "@reduxjs/toolkit";
-import slice1Reducer from "./component/Slicer1";
+import slice1Reducer from "./Slicer1";
 
 const stores = configureStore({
     reducer: {
@@ -7,8 +7,10 @@ const stores = configureStore({
     }
 })
 
-
 // store ke andr slice aur reducer ko match karana hota hai bs
+
+
+// {type:"slice1/Increment" , playload: argument };
 
 // slice name : Reducer(corresponding reducer)
 
