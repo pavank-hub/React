@@ -3,7 +3,9 @@ npm init -> package.json
 Install dependency:
 
 npm install react
+
 npm install react-dom
+
 npm install react-router
 
 Devdependency install:
