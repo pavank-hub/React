@@ -10,7 +10,17 @@ const reactSlicer = createSlice({
         CustomIncreser: (state,action)=> {state.count+=action.payload}
 
     }
+    //Example
 
+    // Agar count = 5
+
+    // dispatch(CustomIncreser(10))
+
+    // To:
+
+    // action.payload = 10
+    // count = 15.........
+    
     // state ke andr initialState(latest object) yaani object(count:0) chla jayega.
 })
 

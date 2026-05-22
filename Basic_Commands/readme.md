@@ -4,7 +4,7 @@ Install dependency:
 
 npm install react
 npm install react-dom
-npm install react-router
+npm install react-redux
 
 Devdependency install:
 
@@ -34,3 +34,10 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 
 ReactDOM.createRoot(document.getElementById('root')).render(<App/>);
+
+Creating root in index.html
+
+<body>
+    <div id="root"></div>
+    <script type="module" src="./src/script.js"></script>
+</body>

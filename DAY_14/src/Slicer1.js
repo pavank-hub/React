@@ -17,4 +17,4 @@ export const {Increment, Decrement, Reset} = reactSlicer.actions;
 
 export default reactSlicer.reducer;
 
-// createSlice return an Object
+// createSlice return an Object 

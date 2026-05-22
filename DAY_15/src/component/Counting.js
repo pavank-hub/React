@@ -4,7 +4,7 @@ import { Increment, Decrement, Reset } from "./Slicer1";
 export default function Counting(){
 
     const count = useSelector((state)=> state.slice1.count);
-    // useSelector hook also known as Subscribing to the event , this hook used to update changes if made in count even though count variable updates in global or slicer1 file
+    // useSelector hook also known as Subscribing to the event , this hook used to update changes if made in count even though count variable updates in global or slicer1 file, IT DOESNOT NEED TO RE-RENDER
     
     // above wale m global state mil chuka hai, 
     // global -> slice1 -> count (variable);

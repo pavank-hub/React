@@ -1,16 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { Provider } from "react-redux";
-import Stores from "./Stores";
-import stores from "./Stores";
-import Counting from "./Counting";
-import CustomCounter from "./CustomCounter";
+import Stores from "./component/Stores";
+import Counting from "./component/Counting";
+import CustomCounter from "./component/CustomCounter";
 
 function App(){
 
     return (
         
-        <Provider store={stores}>
+        <Provider store={Stores}>
         <Counting></Counting>
         <br></br>
         <br></br>

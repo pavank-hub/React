@@ -1,7 +1,7 @@
 import { configureStore } from "@reduxjs/toolkit";
 import slice1Reducer from "./Slicer1";
 
-const stores = configureStore({
+const Stores = configureStore({
     reducer: {
         slice1 : slice1Reducer,
     }
@@ -14,4 +14,4 @@ const stores = configureStore({
 
 // slice name : Reducer(corresponding reducer)
 
-export default stores;
+export default Stores;
